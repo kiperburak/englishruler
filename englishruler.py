@@ -15,7 +15,6 @@ def generateTick(tick_1, number_1):
 for i in range(2):
     generateTick(2(numberOfTickPerInch - 1) - 1, numberOfTickPerInch)
 
-
 for i in range(ticks):
     for j in range(dict_tick.keys().count()):
         print(dict_tick.get()
