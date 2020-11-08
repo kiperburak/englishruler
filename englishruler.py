@@ -35,7 +35,7 @@ def printLine(tick_dictionary, numberOfTickPerInch, rulerSize):
     print("-"*numberOfTickPerInch, rulerSize)
 'Fonksiyonun karmaşıklık analizine bakar isek,görüldüğü üzere iki for döngüsünün değişkenleri bize karmaşıklığı vermektedir'
 'Bunlar da rulerSize ve ticks değişkenleridir(ticks değişkeni de numberofTickPerInch değişkenine bağlıdır.)'
-'O yüden karmaşıklık O(rulerSize*numberOfTickPerInch) olacaktır.69'
+'O yüden karmaşıklık O(rulerSize*numberOfTickPerInch) olacaktır.'
 if __name__ == '__main__':
     rulerSize = 2
     numberOfTickPerInch = 5
